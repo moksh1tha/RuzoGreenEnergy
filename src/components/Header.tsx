@@ -18,7 +18,7 @@ const Header: React.FC = () => {
 
   const navigationItems = [
     { name: 'Home', path: '/' },
-    { name: 'About', path: '/verdex' },
+    { name: 'VerdeX', path: '/verdex' },
     { name: 'Technology', path: '/technology' },
     { name: 'Sustainability', path: '/sustainability' },
     { name: 'Investors', path: '/investors' },
