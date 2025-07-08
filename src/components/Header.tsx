@@ -45,6 +45,9 @@ const Header: React.FC = () => {
               alt="RUZO GREEN ENERGY" 
               className="h-10 w-auto transition-all duration-300 group-hover:scale-105"
             />
+            <span className="text-xl font-bold text-gray-900 group-hover:text-green-700 transition-colors duration-300 font-sans tracking-wide">
+              Ruzo Green Energy
+            </span>
           </Link>
 
           {/* Desktop Navigation */}

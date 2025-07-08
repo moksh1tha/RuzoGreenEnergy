@@ -208,6 +208,10 @@ const News: React.FC = () => {
                   Subscribe
                 </button>
               </div>
+              <div className="text-sm text-green-200 space-y-1">
+                <p>Contact us: ceo@ruzogreenenergy.com</p>
+                <p>Phone: +91 99568 14433 | Mobile: +91 94736 76618</p>
+              </div>
               <p className="text-sm text-green-200">
                 Join 10,000+ professionals already receiving our updates
               </p>

@@ -32,7 +32,7 @@ const Footer: React.FC = () => {
                 <div>
                   <p className="text-gray-300">Email</p>
                   <a href="mailto:contact@verdex.com" className="text-white hover:text-green-400 transition-colors duration-300">
-                    contact@verdex.com
+                    ceo@ruzogreenenergy.com
                   </a>
                 </div>
               </div>
@@ -42,9 +42,14 @@ const Footer: React.FC = () => {
                   <Phone className="h-4 w-4" />
                 </div>
                 <div>
-                  <p className="text-gray-300">Phone</p>
-                  <a href="tel:+1234567890" className="text-white hover:text-green-400 transition-colors duration-300">
-                    +1 (234) 567-8900
+                  <p className="text-gray-300">Telephone</p>
+                  <a href="tel:+919956814433" className="text-white hover:text-green-400 transition-colors duration-300">
+                    +91 99568 14433
+                  </a>
+                  <br />
+                  <p className="text-gray-300 mt-1">Mobile</p>
+                  <a href="tel:+919473676618" className="text-white hover:text-green-400 transition-colors duration-300">
+                    +91 94736 76618
                   </a>
                 </div>
               </div>
@@ -56,8 +61,8 @@ const Footer: React.FC = () => {
                 <div>
                   <p className="text-gray-300">Address</p>
                   <p className="text-white">
-                    123 Green Innovation Drive<br />
-                    Sustainability City, SC 12345
+                    Green Energy Solutions<br />
+                    Renewable Technology Hub
                   </p>
                 </div>
               </div>

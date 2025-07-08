@@ -188,6 +188,10 @@ const Investors: React.FC = () => {
               <button className="bg-white text-green-600 hover:bg-gray-100 px-8 py-4 rounded-lg font-semibold transition-all duration-300 hover:scale-105">
                 Contact Investor Relations
               </button>
+              <div className="text-center text-green-100 text-sm mt-4">
+                <p>Email: ceo@ruzogreenenergy.com</p>
+                <p>Phone: +91 99568 14433 | Mobile: +91 94736 76618</p>
+              </div>
               <button className="border-2 border-white text-white hover:bg-white hover:text-green-600 px-8 py-4 rounded-lg font-semibold transition-all duration-300">
                 Subscribe to Updates
               </button>
