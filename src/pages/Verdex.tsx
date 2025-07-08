@@ -5,10 +5,10 @@ const Verdex: React.FC = () => {
   return (
     <div className="bg-white">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-green-800 to-black text-white py-20">
+      <section className="bg-gradient-to-br from-black to-gray-900 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-6">
-            <div className="inline-block bg-green-500/20 px-4 py-2 rounded-full text-green-300 text-sm font-semibold mb-4">
+            <div className="inline-block bg-white/20 px-4 py-2 rounded-full text-gray-300 text-sm font-semibold mb-4">
               A Ruzo Green Energy Initiative
             </div>
             <h1 className="text-4xl lg:text-6xl font-bold">VerdeX</h1>
@@ -18,10 +18,10 @@ const Verdex: React.FC = () => {
               carbon offset solutions.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
-              <button className="bg-gradient-to-r from-green-500 to-green-600 hover:from-green-400 hover:to-green-500 px-8 py-4 rounded-lg font-semibold transition-all duration-300 hover:scale-105">
+              <button className="bg-white text-black hover:bg-gray-100 px-8 py-4 rounded-lg font-semibold transition-all duration-300 hover:scale-105">
                 Get Started
               </button>
-              <button className="border-2 border-green-400 text-green-400 hover:bg-green-400 hover:text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300">
+              <button className="border-2 border-white text-white hover:bg-white hover:text-black px-8 py-4 rounded-lg font-semibold transition-all duration-300">
                 Learn More
               </button>
             </div>
@@ -44,7 +44,7 @@ const Verdex: React.FC = () => {
                 icon: DollarSign,
                 title: '1% Platform Fee',
                 subtitle: 'Lowest in the industry',
-                color: 'from-green-500 to-green-600'
+                color: 'from-gray-800 to-black'
               },
               {
                 icon: Zap,
@@ -111,7 +111,7 @@ const Verdex: React.FC = () => {
             ].map(({ icon: Icon, title, description, features }) => (
               <div key={title} className="bg-gray-50 p-8 rounded-2xl hover:shadow-lg transition-all duration-300">
                 <div className="flex items-start space-x-4">
-                  <div className="bg-gradient-to-br from-green-500 to-green-600 p-3 rounded-lg">
+                  <div className="bg-gradient-to-br from-gray-800 to-black p-3 rounded-lg">
                     <Icon className="h-6 w-6 text-white" />
                   </div>
                   <div className="flex-1 space-y-4">
@@ -120,7 +120,7 @@ const Verdex: React.FC = () => {
                     <ul className="space-y-2">
                       {features.map((feature) => (
                         <li key={feature} className="flex items-center text-sm text-gray-700">
-                          <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
+                          <CheckCircle className="h-4 w-4 text-black mr-2" />
                           {feature}
                         </li>
                       ))}
@@ -134,7 +134,7 @@ const Verdex: React.FC = () => {
       </section>
 
       {/* Why VerdeX Stands Out */}
-      <section className="py-20 bg-gradient-to-br from-green-50 to-green-100">
+      <section className="py-20 bg-gradient-to-br from-gray-50 to-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-6 mb-16">
             <h2 className="text-3xl font-bold text-gray-900">Why VerdeX Stands Out</h2>
@@ -166,12 +166,12 @@ const Verdex: React.FC = () => {
               }
             ].map(({ icon: Icon, title, description, highlight }) => (
               <div key={title} className="bg-white p-8 rounded-2xl shadow-lg text-center hover:shadow-xl transition-all duration-300">
-                <div className="bg-gradient-to-br from-green-500 to-green-600 p-4 rounded-full inline-block mb-6">
+                <div className="bg-gradient-to-br from-gray-800 to-black p-4 rounded-full inline-block mb-6">
                   <Icon className="h-8 w-8 text-white" />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">{title}</h3>
                 <p className="text-gray-600 mb-4">{description}</p>
-                <div className="bg-green-100 text-green-800 px-4 py-2 rounded-full text-sm font-semibold">
+                <div className="bg-gray-100 text-black px-4 py-2 rounded-full text-sm font-semibold">
                   {highlight}
                 </div>
               </div>
@@ -189,7 +189,7 @@ const Verdex: React.FC = () => {
                 <div className="bg-blue-100 text-blue-800 px-6 py-3 rounded-lg font-semibold">
                   Compliance Markets
                 </div>
-                <div className="bg-green-100 text-green-800 px-6 py-3 rounded-lg font-semibold">
+                <div className="bg-gray-100 text-black px-6 py-3 rounded-lg font-semibold">
                   Voluntary Markets
                 </div>
               </div>
@@ -243,7 +243,7 @@ const Verdex: React.FC = () => {
             ].map(({ step, title, description, icon: Icon }, index) => (
               <div key={step} className="flex items-start space-x-6">
                 <div className="flex-shrink-0">
-                  <div className="bg-gradient-to-br from-green-500 to-green-600 text-white w-16 h-16 rounded-full flex items-center justify-center font-bold text-lg">
+                  <div className="bg-gradient-to-br from-gray-800 to-black text-white w-16 h-16 rounded-full flex items-center justify-center font-bold text-lg">
                     {step}
                   </div>
                 </div>
@@ -251,7 +251,7 @@ const Verdex: React.FC = () => {
                   <div className="bg-gray-50 p-6 rounded-xl hover:shadow-lg transition-all duration-300">
                     <div className="flex items-start space-x-4">
                       <div className="bg-white p-3 rounded-lg shadow-md">
-                        <Icon className="h-6 w-6 text-green-600" />
+                        <Icon className="h-6 w-6 text-black" />
                       </div>
                       <div className="flex-1">
                         <h3 className="text-xl font-semibold text-gray-900 mb-2">{title}</h3>
@@ -261,7 +261,7 @@ const Verdex: React.FC = () => {
                   </div>
                 </div>
                 {index < 4 && (
-                  <div className="absolute left-8 mt-16 w-0.5 h-8 bg-green-300"></div>
+                  <div className="absolute left-8 mt-16 w-0.5 h-8 bg-gray-300"></div>
                 )}
               </div>
             ))}
@@ -304,7 +304,7 @@ const Verdex: React.FC = () => {
                 <ul className="space-y-3">
                   {benefits.map((benefit) => (
                     <li key={benefit} className="flex items-center text-sm text-gray-700">
-                      <CheckCircle className="h-4 w-4 text-green-500 mr-3" />
+                      <CheckCircle className="h-4 w-4 text-black mr-3" />
                       {benefit}
                     </li>
                   ))}
@@ -316,7 +316,7 @@ const Verdex: React.FC = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-r from-green-600 to-green-700 text-white">
+      <section className="py-20 bg-gradient-to-r from-black to-gray-900 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="space-y-6">
             <h2 className="text-3xl font-bold">Ready to Transform Your Carbon Strategy?</h2>
@@ -325,14 +325,14 @@ const Verdex: React.FC = () => {
               and cost-effective solutions for your sustainability goals.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-white text-green-600 hover:bg-gray-100 px-8 py-4 rounded-lg font-semibold transition-all duration-300 hover:scale-105">
+              <button className="bg-white text-black hover:bg-gray-100 px-8 py-4 rounded-lg font-semibold transition-all duration-300 hover:scale-105">
                 Start Your Journey
               </button>
-              <button className="border-2 border-white text-white hover:bg-white hover:text-green-600 px-8 py-4 rounded-lg font-semibold transition-all duration-300">
+              <button className="border-2 border-white text-white hover:bg-white hover:text-black px-8 py-4 rounded-lg font-semibold transition-all duration-300">
                 Schedule Demo
               </button>
             </div>
-            <div className="text-sm text-green-200 space-y-1 mt-8">
+            <div className="text-sm text-gray-300 space-y-1 mt-8">
               <p>Contact us: ceo@ruzogreenenergy.com</p>
               <p>Phone: +91 99568 14433 | Mobile: +91 94736 76618</p>
             </div>
