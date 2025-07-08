@@ -161,7 +161,6 @@ const Home: React.FC = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <div className="inline-block bg-green-100 text-green-700 px-4 py-2 rounded-full text-sm font-semibold">
-              <div className="inline-block bg-green-100 text-green-800 px-4 py-2 rounded-full text-sm font-semibold">
                 Introducing VerdeX
               </div>
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900">
@@ -184,7 +183,6 @@ const Home: React.FC = () => {
                   </div>
                 ))}
               </div>
-              <button className="bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 hover:scale-105">
               <button className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 hover:scale-105">
                 Learn More About VerdeX
               </button>
