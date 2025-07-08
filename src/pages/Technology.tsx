@@ -112,21 +112,22 @@ const Technology: React.FC = () => {
               </div>
             </div>
             <div className="bg-gradient-to-br from-green-500 to-green-700 p-8 rounded-2xl text-white">
-            <div className="bg-gradient-to-br from-green-600 to-green-800 p-8 rounded-2xl text-white">
-              <div className="space-y-6">
-                <h3 className="text-2xl font-bold">Tech Metrics</h3>
-                <div className="grid grid-cols-2 gap-6">
-                  {[
-                    { label: 'Energy Saved', value: '2.5M kWh' },
-                    { label: 'Carbon Reduced', value: '1,200 tons' },
-                    { label: 'Efficiency Gain', value: '95%' },
-                    { label: 'Uptime', value: '99.99%' }
-                  ].map(({ label, value }) => (
-                    <div key={label} className="text-center">
-                      <div className="text-2xl font-bold text-green-300">{value}</div>
-                      <div className="text-sm text-green-200">{label}</div>
-                    </div>
-                  ))}
+              <div className="bg-gradient-to-br from-green-600 to-green-800 p-8 rounded-2xl text-white">
+                <div className="space-y-6">
+                  <h3 className="text-2xl font-bold">Tech Metrics</h3>
+                  <div className="grid grid-cols-2 gap-6">
+                    {[
+                      { label: 'Energy Saved', value: '2.5M kWh' },
+                      { label: 'Carbon Reduced', value: '1,200 tons' },
+                      { label: 'Efficiency Gain', value: '95%' },
+                      { label: 'Uptime', value: '99.99%' }
+                    ].map(({ label, value }) => (
+                      <div key={label} className="text-center">
+                        <div className="text-2xl font-bold text-green-300">{value}</div>
+                        <div className="text-sm text-green-200">{label}</div>
+                      </div>
+                    ))}
+                  </div>
                 </div>
               </div>
             </div>
