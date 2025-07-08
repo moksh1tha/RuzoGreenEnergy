@@ -21,7 +21,7 @@ const Careers: React.FC = () => {
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-6 mb-16">
-            <h2 className="text-3xl font-bold text-gray-900">Why RUZO GREEN ENERGY?</h2>
+            <h2 className="text-3xl font-bold text-gray-900">Why Verdex?</h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               More than just a job - join a mission-driven company where your work makes a real impact.
             </p>

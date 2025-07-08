@@ -55,7 +55,7 @@ const Sustainability: React.FC = () => {
               }
             ].map(({ icon: Icon, title, value, description }) => (
               <div key={title} className="text-center space-y-4">
-                <div className="bg-gradient-to-br from-green-600 to-green-700 p-4 rounded-full inline-block">
+                <div className="bg-gradient-to-br from-green-500 to-green-600 p-4 rounded-full inline-block">
                   <Icon className="h-8 w-8 text-white" />
                 </div>
                 <div className="text-3xl font-bold text-gray-900">{value}</div>
@@ -122,7 +122,7 @@ const Sustainability: React.FC = () => {
             ].map(({ icon: Icon, title, description, achievements }) => (
               <div key={title} className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
                 <div className="flex items-start space-x-4">
-                  <div className="bg-gradient-to-br from-green-600 to-green-700 p-3 rounded-lg">
+                  <div className="bg-gradient-to-br from-green-500 to-green-600 p-3 rounded-lg">
                     <Icon className="h-6 w-6 text-white" />
                   </div>
                   <div className="flex-1 space-y-4">
@@ -131,7 +131,7 @@ const Sustainability: React.FC = () => {
                     <ul className="space-y-2">
                       {achievements.map((achievement) => (
                         <li key={achievement} className="flex items-center text-sm text-gray-700">
-                          <div className="w-2 h-2 bg-green-600 rounded-full mr-3"></div>
+                          <div className="w-2 h-2 bg-green-500 rounded-full mr-3"></div>
                           {achievement}
                         </li>
                       ))}
@@ -166,7 +166,7 @@ const Sustainability: React.FC = () => {
               'Climate Neutral'
             ].map((cert) => (
               <div key={cert} className="bg-gray-50 p-6 rounded-lg text-center hover:bg-green-50 transition-colors duration-300">
-                <div className="w-16 h-16 bg-gradient-to-br from-green-600 to-green-700 rounded-full mx-auto mb-4 flex items-center justify-center">
+                <div className="w-16 h-16 bg-gradient-to-br from-green-500 to-green-600 rounded-full mx-auto mb-4 flex items-center justify-center">
                   <Leaf className="h-8 w-8 text-white" />
                 </div>
                 <div className="font-semibold text-gray-900">{cert}</div>
