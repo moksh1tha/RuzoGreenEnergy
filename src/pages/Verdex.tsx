@@ -8,10 +8,10 @@ const Verdex: React.FC = () => {
       <section className="bg-gradient-to-br from-green-800 to-black text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-6">
-            <h1 className="text-4xl lg:text-5xl font-bold">About Verdex</h1>
+            <h1 className="text-4xl lg:text-5xl font-bold">About RUZO GREEN ENERGY</h1>
             <p className="text-xl text-gray-200 max-w-3xl mx-auto">
-              Founded on the principle that technology should enhance our world, not harm it. 
-              We're building the sustainable solutions of tomorrow, today.
+              Founded on the principle that renewable energy should be accessible to all. 
+              We're building the clean energy solutions of tomorrow, today.
             </p>
           </div>
         </div>
@@ -24,12 +24,12 @@ const Verdex: React.FC = () => {
             <div className="space-y-6">
               <h2 className="text-3xl font-bold text-gray-900">Our Mission</h2>
               <p className="text-lg text-gray-600 leading-relaxed">
-                To revolutionize how businesses approach technology by creating innovative, 
-                sustainable solutions that drive growth while protecting our planet for future generations.
+                To revolutionize how businesses and communities approach energy by creating innovative, 
+                renewable energy solutions that drive growth while protecting our planet for future generations.
               </p>
               <p className="text-lg text-gray-600 leading-relaxed">
                 We believe that environmental responsibility and business success go hand in hand. 
-                Our team of experts works tirelessly to develop technologies that prove this philosophy.
+                Our team of experts works tirelessly to develop renewable energy solutions that prove this philosophy.
               </p>
             </div>
             <div className="grid grid-cols-2 gap-6">

@@ -11,13 +11,13 @@ const Home: React.FC = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-8">
               <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
-                Sustainable
-                <span className="block text-green-400">Innovation</span>
-                for Tomorrow
+                Renewable
+                <span className="block text-green-400">Energy</span>
+                Solutions
               </h1>
               <p className="text-xl text-gray-200 leading-relaxed">
-                Verdex is pioneering the future of sustainable technology, creating solutions 
-                that drive environmental progress while delivering exceptional business value.
+                RUZO GREEN ENERGY is pioneering the future of renewable energy, creating solutions 
+                that drive environmental progress while delivering exceptional value for businesses and communities.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <button className="bg-gradient-to-r from-green-500 to-green-600 hover:from-green-400 hover:to-green-500 px-8 py-4 rounded-lg font-semibold transition-all duration-300 hover:scale-105 hover:shadow-xl flex items-center justify-center space-x-2">
@@ -58,10 +58,10 @@ const Home: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-6 mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900">
-              Why Choose Verdex?
+              Why Choose RUZO GREEN ENERGY?
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              We combine cutting-edge technology with environmental responsibility 
+              We combine cutting-edge renewable energy technology with environmental responsibility 
               to create solutions that benefit both your business and the planet.
             </p>
           </div>
@@ -104,7 +104,7 @@ const Home: React.FC = () => {
               Ready to Transform Your Business?
             </h2>
             <p className="text-xl text-green-100 max-w-2xl mx-auto">
-              Join thousands of companies already using Verdex to create a more sustainable future.
+              Join thousands of companies already using RUZO GREEN ENERGY to create a more sustainable future.
             </p>
             <button className="bg-white text-green-600 hover:bg-gray-100 px-8 py-4 rounded-lg font-semibold transition-all duration-300 hover:scale-105 hover:shadow-xl">
               Get Started Today

@@ -18,7 +18,7 @@ const Header: React.FC = () => {
 
   const navigationItems = [
     { name: 'Home', path: '/' },
-    { name: 'Verdex', path: '/verdex' },
+    { name: 'About', path: '/verdex' },
     { name: 'Technology', path: '/technology' },
     { name: 'Sustainability', path: '/sustainability' },
     { name: 'Investors', path: '/investors' },
@@ -40,12 +40,11 @@ const Header: React.FC = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2 group">
-            <div className="bg-gradient-to-br from-green-600 to-green-800 p-2 rounded-lg group-hover:from-green-500 group-hover:to-green-700 transition-all duration-300">
-              <Leaf className="h-6 w-6 text-white" />
-            </div>
-            <span className="text-xl font-bold text-gray-900 group-hover:text-green-700 transition-colors duration-300">
-              Verdex
-            </span>
+            <img 
+              src="/ruzo-logo.png" 
+              alt="RUZO GREEN ENERGY" 
+              className="h-10 w-auto transition-all duration-300 group-hover:scale-105"
+            />
           </Link>
 
           {/* Desktop Navigation */}

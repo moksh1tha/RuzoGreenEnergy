@@ -9,13 +9,14 @@ const Footer: React.FC = () => {
           {/* Company Info */}
           <div className="space-y-6">
             <div className="flex items-center space-x-2">
-              <div className="bg-gradient-to-br from-green-500 to-green-700 p-2 rounded-lg">
-                <Leaf className="h-6 w-6 text-white" />
-              </div>
-              <span className="text-2xl font-bold">Verdex</span>
+              <img 
+                src="/ruzo-logo.png" 
+                alt="RUZO GREEN ENERGY" 
+                className="h-8 w-auto"
+              />
             </div>
             <p className="text-gray-300 leading-relaxed">
-              Leading the future of sustainable technology with innovative solutions 
+              Leading the future of renewable energy with innovative solutions 
               that create positive environmental impact while driving business growth.
             </p>
           </div>
