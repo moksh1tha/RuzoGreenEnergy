@@ -12,8 +12,11 @@ const Footer: React.FC = () => {
               <img 
                 src="/ruzo-logo.png" 
                 alt="RUZO GREEN ENERGY" 
-                className="h-8 w-auto"
+                className="h-6 w-auto"
               />
+              <span className="text-xl font-bold text-white ml-2">
+                Ruzo Green Energy
+              </span>
             </div>
             <p className="text-gray-300 leading-relaxed">
               Leading the future of renewable energy with innovative solutions 
