@@ -5,14 +5,14 @@ const Home: React.FC = () => {
   return (
     <div className="bg-white">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-green-600 via-green-500 to-green-700 text-white overflow-hidden">
+      <section className="relative bg-gradient-to-br from-green-900 via-green-800 to-black text-white overflow-hidden">
         <div className="absolute inset-0 bg-black/20"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 lg:py-32">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-8">
               <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
                 Renewable
-                <span className="block text-green-200">Energy</span>
+                <span className="block text-green-400">Energy</span>
                 Solutions
               </h1>
               <p className="text-xl text-gray-200 leading-relaxed">
@@ -20,17 +20,17 @@ const Home: React.FC = () => {
                 that drive environmental progress while delivering exceptional value for businesses and communities.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <button className="bg-gradient-to-r from-green-400 to-green-500 hover:from-green-300 hover:to-green-400 px-8 py-4 rounded-lg font-semibold transition-all duration-300 hover:scale-105 hover:shadow-xl flex items-center justify-center space-x-2">
+                <button className="bg-gradient-to-r from-green-500 to-green-600 hover:from-green-400 hover:to-green-500 px-8 py-4 rounded-lg font-semibold transition-all duration-300 hover:scale-105 hover:shadow-xl flex items-center justify-center space-x-2">
                   <span>Explore Our Solutions</span>
                   <ArrowRight className="h-5 w-5" />
                 </button>
-                <button className="border-2 border-green-200 text-green-200 hover:bg-green-200 hover:text-green-700 px-8 py-4 rounded-lg font-semibold transition-all duration-300 hover:scale-105">
+                <button className="border-2 border-green-400 text-green-400 hover:bg-green-400 hover:text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 hover:scale-105">
                   Watch Demo
                 </button>
               </div>
             </div>
             <div className="relative">
-              <div className="bg-gradient-to-br from-green-300/20 to-green-400/30 rounded-3xl p-8 backdrop-blur-sm border border-green-300/20">
+              <div className="bg-gradient-to-br from-green-400/20 to-green-600/30 rounded-3xl p-8 backdrop-blur-sm border border-green-400/20">
                 <div className="grid grid-cols-2 gap-6">
                   {[
                     { icon: Leaf, label: 'Eco-Friendly', value: '100%' },
@@ -39,10 +39,10 @@ const Home: React.FC = () => {
                     { icon: Globe, label: 'Global Impact', value: '50+' }
                   ].map(({ icon: Icon, label, value }) => (
                     <div key={label} className="text-center space-y-2">
-                      <div className="bg-green-400/20 p-4 rounded-full inline-block">
-                        <Icon className="h-8 w-8 text-green-200" />
+                      <div className="bg-green-500/20 p-4 rounded-full inline-block">
+                        <Icon className="h-8 w-8 text-green-400" />
                       </div>
-                      <div className="text-2xl font-bold text-green-200">{value}</div>
+                      <div className="text-2xl font-bold text-green-400">{value}</div>
                       <div className="text-sm text-gray-300">{label}</div>
                     </div>
                   ))}
@@ -88,12 +88,12 @@ const Home: React.FC = () => {
               }
             ].map(({ icon: Icon, title, description, highlight }) => (
               <div key={title} className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border border-gray-100">
-                <div className="bg-gradient-to-br from-green-400 to-green-500 p-3 rounded-lg inline-block mb-6">
+                <div className="bg-gradient-to-br from-green-500 to-green-600 p-3 rounded-lg inline-block mb-6">
                   <Icon className="h-6 w-6 text-white" />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">{title}</h3>
                 <p className="text-gray-600 leading-relaxed mb-4">{description}</p>
-                <div className="bg-green-100 text-green-700 px-4 py-2 rounded-full text-sm font-semibold inline-block">
+                <div className="bg-green-100 text-green-800 px-4 py-2 rounded-full text-sm font-semibold inline-block">
                   {highlight}
                 </div>
               </div>
@@ -143,7 +143,7 @@ const Home: React.FC = () => {
               }
             ].map(({ icon: Icon, title, value, description }) => (
               <div key={title} className="text-center space-y-4">
-                <div className="bg-gradient-to-br from-green-400 to-green-500 p-4 rounded-full inline-block">
+                <div className="bg-gradient-to-br from-green-500 to-green-600 p-4 rounded-full inline-block">
                   <Icon className="h-8 w-8 text-white" />
                 </div>
                 <div className="text-3xl font-bold text-gray-900">{value}</div>
@@ -161,6 +161,7 @@ const Home: React.FC = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <div className="inline-block bg-green-100 text-green-700 px-4 py-2 rounded-full text-sm font-semibold">
+              <div className="inline-block bg-green-100 text-green-800 px-4 py-2 rounded-full text-sm font-semibold">
                 Introducing VerdeX
               </div>
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900">
@@ -184,6 +185,7 @@ const Home: React.FC = () => {
                 ))}
               </div>
               <button className="bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 hover:scale-105">
+              <button className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 hover:scale-105">
                 Learn More About VerdeX
               </button>
             </div>
@@ -198,7 +200,7 @@ const Home: React.FC = () => {
                     { label: 'CO₂ Precision', value: '0.5 ppm' }
                   ].map(({ label, value }) => (
                     <div key={label} className="text-center">
-                      <div className="text-2xl font-bold text-green-600">{value}</div>
+                      <div className="text-2xl font-bold text-green-700">{value}</div>
                       <div className="text-sm text-gray-600">{label}</div>
                     </div>
                   ))}
@@ -246,7 +248,7 @@ const Home: React.FC = () => {
               }
             ].map(({ icon: Icon, title, description }) => (
               <div key={title} className="text-center space-y-4">
-                <div className="bg-gradient-to-br from-green-400 to-green-500 p-4 rounded-full inline-block">
+                <div className="bg-gradient-to-br from-green-500 to-green-600 p-4 rounded-full inline-block">
                   <Icon className="h-8 w-8 text-white" />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900">{title}</h3>
@@ -259,7 +261,7 @@ const Home: React.FC = () => {
             <p className="text-lg text-gray-600 mb-6">
               We're not hiring right now, but we're always excited to connect with passionate individuals.
             </p>
-            <button className="bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 hover:scale-105">
+            <button className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 hover:scale-105">
               Join Our Talent Network
             </button>
           </div>
@@ -298,7 +300,7 @@ const Home: React.FC = () => {
               }
             ].map(({ icon: Icon, title, description }) => (
               <div key={title} className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border border-gray-100">
-                <div className="bg-gradient-to-br from-green-400 to-green-500 p-3 rounded-lg inline-block mb-6">
+                <div className="bg-gradient-to-br from-green-500 to-green-600 p-3 rounded-lg inline-block mb-6">
                   <Icon className="h-6 w-6 text-white" />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">{title}</h3>
@@ -310,7 +312,7 @@ const Home: React.FC = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-r from-green-500 to-green-600 text-white">
+      <section className="py-20 bg-gradient-to-r from-green-600 to-green-700 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="space-y-8">
             <h2 className="text-3xl lg:text-4xl font-bold">
@@ -322,7 +324,7 @@ const Home: React.FC = () => {
             <button className="bg-white text-green-600 hover:bg-gray-100 px-8 py-4 rounded-lg font-semibold transition-all duration-300 hover:scale-105 hover:shadow-xl">
               Get Started Today
             </button>
-            <div className="text-sm text-green-100 space-y-1 mt-8">
+            <div className="text-sm text-green-200 space-y-1 mt-8">
               <p>Contact us: ceo@ruzogreenenergy.com</p>
               <p>Phone: +91 99568 14433 | Mobile: +91 94736 76618</p>
             </div>

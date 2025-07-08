@@ -68,7 +68,7 @@ const Technology: React.FC = () => {
               }
             ].map(({ icon: Icon, title, description, features }) => (
               <div key={title} className="bg-gray-50 p-8 rounded-2xl hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
-                <div className="bg-gradient-to-br from-green-500 to-green-600 p-3 rounded-lg inline-block mb-6">
+                <div className="bg-gradient-to-br from-green-600 to-green-700 p-3 rounded-lg inline-block mb-6">
                   <Icon className="h-6 w-6 text-white" />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">{title}</h3>
@@ -76,7 +76,7 @@ const Technology: React.FC = () => {
                 <ul className="space-y-2">
                   {features.map((feature) => (
                     <li key={feature} className="flex items-center text-sm text-gray-700">
-                      <div className="w-2 h-2 bg-green-500 rounded-full mr-3"></div>
+                      <div className="w-2 h-2 bg-green-600 rounded-full mr-3"></div>
                       {feature}
                     </li>
                   ))}
@@ -105,13 +105,14 @@ const Technology: React.FC = () => {
                   'Renewable energy integration'
                 ].map((innovation) => (
                   <div key={innovation} className="flex items-center space-x-3">
-                    <div className="w-3 h-3 bg-green-500 rounded-full"></div>
+                    <div className="w-3 h-3 bg-green-600 rounded-full"></div>
                     <span className="text-gray-700">{innovation}</span>
                   </div>
                 ))}
               </div>
             </div>
             <div className="bg-gradient-to-br from-green-500 to-green-700 p-8 rounded-2xl text-white">
+            <div className="bg-gradient-to-br from-green-600 to-green-800 p-8 rounded-2xl text-white">
               <div className="space-y-6">
                 <h3 className="text-2xl font-bold">Tech Metrics</h3>
                 <div className="grid grid-cols-2 gap-6">
@@ -122,8 +123,8 @@ const Technology: React.FC = () => {
                     { label: 'Uptime', value: '99.99%' }
                   ].map(({ label, value }) => (
                     <div key={label} className="text-center">
-                      <div className="text-2xl font-bold text-green-200">{value}</div>
-                      <div className="text-sm text-green-100">{label}</div>
+                      <div className="text-2xl font-bold text-green-300">{value}</div>
+                      <div className="text-sm text-green-200">{label}</div>
                     </div>
                   ))}
                 </div>
