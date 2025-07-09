@@ -27,7 +27,7 @@ const Technology: React.FC = () => {
               </div>
               {/* Uncomment and replace URL when you have your image:
               <img 
-                src="YOUR_IMAGE_URL_HERE" 
+                src="https://ik.imagekit.io/6ilngyaqa/1752048140664-Screenshot_2025-07-08_185844_961rs9PQ2z.png" 
                 alt="Technology Solutions"
                 className="w-full h-96 object-cover rounded-2xl shadow-xl"
               />
