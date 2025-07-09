@@ -8,30 +8,12 @@ const Sustainability: React.FC = () => {
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-green-800 to-black text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div className="space-y-6">
-              <h1 className="text-4xl lg:text-5xl font-bold">Sustainability</h1>
-              <p className="text-xl text-gray-200 leading-relaxed">
-                Our commitment to environmental stewardship drives everything we do. 
-                Discover how we're building a more sustainable future for all.
-              </p>
-            </div>
-            <div className="relative">
-              {/* Image Placeholder - Replace src with your image URL */}
-              <div className="bg-gray-700 rounded-2xl h-96 flex items-center justify-center border-2 border-dashed border-gray-500">
-                <div className="text-center space-y-2">
-                  <div className="text-gray-400 text-lg font-semibold">Sustainability Image</div>
-                  <div className="text-gray-500 text-sm">Replace with your image</div>
-                </div>
-              </div>
-              {/* Uncomment and replace URL when you have your image:
-              <img 
-                src="YOUR_IMAGE_URL_HERE" 
-                alt="Sustainability Solutions"
-                className="w-full h-96 object-cover rounded-2xl shadow-xl"
-              />
-              */}
-            </div>
+          <div className="text-center space-y-6">
+            <h1 className="text-4xl lg:text-5xl font-bold">Sustainability</h1>
+            <p className="text-xl text-gray-200 max-w-3xl mx-auto">
+              Our commitment to environmental stewardship drives everything we do. 
+              Discover how we're building a more sustainable future for all.
+            </p>
           </div>
         </div>
       </section>
