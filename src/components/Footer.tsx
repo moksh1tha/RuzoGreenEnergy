@@ -10,12 +10,12 @@ const Footer: React.FC = () => {
           <div className="space-y-6">
             <div className="flex items-center space-x-2">
               <img 
-                src="/ruzo-logo.png" 
+                src="https://ik.imagekit.io/6ilngyaqa/1752046455008-Screenshot_2025-07-08_185844_9rYvD5IkxC.png" 
                 alt="RUZO GREEN ENERGY" 
                 className="h-6 w-auto"
               />
               <span className="text-xl font-bold text-white ml-2">
-                Ruzo Green Energy
+                
               </span>
             </div>
             <p className="text-gray-300 leading-relaxed">
