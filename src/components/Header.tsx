@@ -41,7 +41,7 @@ const Header: React.FC = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2 group">
             <img 
-              src="/ruzo-logo.png" 
+              src="https://ik.imagekit.io/6ilngyaqa/1752046455008-Screenshot_2025-07-08_185844_9rYvD5IkxC.png" 
               alt="RUZO GREEN ENERGY" 
               className="h-8 w-auto transition-all duration-300 group-hover:scale-105"
             />
