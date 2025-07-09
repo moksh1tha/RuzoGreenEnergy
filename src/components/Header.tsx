@@ -43,7 +43,7 @@ const Header: React.FC = () => {
             <img 
               src="https://ik.imagekit.io/6ilngyaqa/1752046455008-Screenshot_2025-07-08_185844_9rYvD5IkxC.png" 
               alt="RUZO GREEN ENERGY" 
-              className="h-10 w-auto transition-all duration-300 group-hover:scale-105"
+              className="h-12 w-auto transition-all duration-300 group-hover:scale-105"
             />
             <span className="text-lg font-bold text-gray-900 group-hover:text-green-700 transition-colors duration-300 font-sans tracking-wide ml-1">
               
