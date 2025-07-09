@@ -182,7 +182,7 @@ const Home: React.FC = () => {
                 ))}
               </div>
               <Link to="/careers" className="bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 hover:scale-105 inline-block">
-                Join Our Talent Network
+                Learn More
               </Link>
             </div>
             <div className="bg-gradient-to-br from-green-50 to-green-100 p-8 rounded-2xl">
