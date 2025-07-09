@@ -9,11 +9,9 @@ const Footer: React.FC = () => {
           {/* Company Info */}
           <div className="space-y-6">
             <div className="flex items-center space-x-2">
-              <img 
-                src="/ruzo-logo.png" 
-                alt="RUZO GREEN ENERGY" 
-                className="h-6 w-auto"
-              />
+              <div className="bg-gradient-to-r from-green-600 to-green-700 p-2 rounded-lg">
+                <Leaf className="h-4 w-4 text-white" />
+              </div>
               <span className="text-xl font-bold text-white ml-2">
                 Ruzo Green Energy
               </span>
