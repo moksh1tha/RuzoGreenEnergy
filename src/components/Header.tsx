@@ -40,9 +40,11 @@ const Header: React.FC = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2 group">
-            <div className="bg-gradient-to-r from-green-600 to-green-700 p-2 rounded-lg transition-all duration-300 group-hover:scale-105">
-              <Leaf className="h-6 w-6 text-white" />
-            </div>
+            <img 
+              src="/ruzo-logo.png" 
+              alt="RUZO GREEN ENERGY" 
+              className="h-8 w-auto transition-all duration-300 group-hover:scale-105"
+            />
             <span className="text-lg font-bold text-gray-900 group-hover:text-green-700 transition-colors duration-300 font-sans tracking-wide ml-1">
               Ruzo Green Energy
             </span>
