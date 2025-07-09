@@ -53,9 +53,6 @@ const Investors: React.FC = () => {
               <p>Telephone: +91 99568 14433</p>
               <p>Mobile: +91 94736 76618</p>
             </div>
-            <button className="bg-white text-green-600 hover:bg-gray-100 px-8 py-4 rounded-lg font-semibold transition-all duration-300 hover:scale-105">
-              Contact Investor Relations
-            </button>
           </div>
         </div>
       </section>

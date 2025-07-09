@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { ArrowRight, Leaf, Zap, Shield, Globe, Heart, Lightbulb, Users } from 'lucide-react';
 
 const Home: React.FC = () => {
@@ -20,13 +21,10 @@ const Home: React.FC = () => {
                 that drive environmental progress while delivering exceptional value for businesses and communities.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <button className="bg-gradient-to-r from-green-400 to-green-500 hover:from-green-300 hover:to-green-400 px-8 py-4 rounded-lg font-semibold transition-all duration-300 hover:scale-105 hover:shadow-xl flex items-center justify-center space-x-2">
+                <Link to="/technology" className="bg-gradient-to-r from-green-400 to-green-500 hover:from-green-300 hover:to-green-400 px-8 py-4 rounded-lg font-semibold transition-all duration-300 hover:scale-105 hover:shadow-xl flex items-center justify-center space-x-2">
                   <span>Explore Our Solutions</span>
                   <ArrowRight className="h-5 w-5" />
-                </button>
-                <button className="border-2 border-green-200 text-green-200 hover:bg-green-200 hover:text-green-700 px-8 py-4 rounded-lg font-semibold transition-all duration-300 hover:scale-105">
-                  Watch Demo
-                </button>
+                </Link>
               </div>
             </div>
             <div className="relative">
@@ -183,9 +181,9 @@ const Home: React.FC = () => {
                   </div>
                 ))}
               </div>
-              <button className="bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 hover:scale-105">
-                Learn More About VerdeX
-              </button>
+              <Link to="/careers" className="bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 hover:scale-105 inline-block">
+                Join Our Talent Network
+              </Link>
             </div>
             <div className="bg-gradient-to-br from-green-50 to-green-100 p-8 rounded-2xl">
               <div className="space-y-6">

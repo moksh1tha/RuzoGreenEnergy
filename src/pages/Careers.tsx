@@ -164,14 +164,6 @@ const Careers: React.FC = () => {
               <p className="text-lg text-gray-600">
                 While we don't have any open positions at the moment, we're always interested in connecting with talented individuals who share our passion for renewable energy.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <button className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors duration-300">
-                  Join Our Talent Network
-                </button>
-                <button className="border border-gray-300 text-gray-700 hover:bg-gray-50 px-8 py-3 rounded-lg font-semibold transition-colors duration-300">
-                  Get Notified of Openings
-                </button>
-              </div>
             </div>
           </div>
         </div>
