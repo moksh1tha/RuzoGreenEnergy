@@ -53,28 +53,6 @@ const News: React.FC = () => {
                   <TrendingUp className="h-5 w-5" />
                 </button>
               </div>
-              <div className="relative">
-                {/* Bio Fuel Image Placeholder - Replace src with your image URL */}
-                <div className="bg-gray-100 rounded-2xl h-96 flex items-center justify-center border-2 border-dashed border-gray-300">
-                  <div className="text-center space-y-2">
-                    <div className="text-gray-600 text-lg font-semibold">Bio Fuel / CBG Image</div>
-                    <div className="text-gray-500 text-sm">Replace with your bio fuel image</div>
-                  </div>
-                </div>
-                {/* Uncomment and replace URL when you have your image:
-                <img 
-                  src="YOUR_BIOFUEL_IMAGE_URL_HERE" 
-                  alt="Advanced CBG Production"
-                  className="w-full h-96 object-cover rounded-2xl shadow-xl"
-                />
-                */}
-                <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-sm font-medium text-gray-900">
-                  <div className="flex items-center space-x-1">
-                    <Handshake className="h-4 w-4 text-green-600" />
-                    <span>Partnership</span>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
