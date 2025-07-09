@@ -53,6 +53,7 @@ const News: React.FC = () => {
                   <TrendingUp className="h-5 w-5" />
                 </button>
               </div>
+            </div>
           </div>
         </div>
       </section>
