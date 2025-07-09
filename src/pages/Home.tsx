@@ -259,9 +259,9 @@ const Home: React.FC = () => {
             <p className="text-lg text-gray-600 mb-6">
               We're not hiring right now, but we're always excited to connect with passionate individuals.
             </p>
-            <button className="bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 hover:scale-105">
+            <Link to="/careers" className="bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 hover:scale-105 inline-block">
               Join Our Talent Network
-            </button>
+            </Link>
           </div>
         </div>
       </section>
