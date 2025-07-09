@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Phone, MapPin, Leaf, Facebook, Twitter, Linkedin, Instagram } from 'lucide-react';
+import { Mail, Phone, MapPin, Leaf, Linkedin } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
@@ -12,10 +12,10 @@ const Footer: React.FC = () => {
               <img 
                 src="https://ik.imagekit.io/6ilngyaqa/1752046455008-Screenshot_2025-07-08_185844_9rYvD5IkxC.png" 
                 alt="RUZO GREEN ENERGY" 
-                className="h-6 w-auto"
+                className="h-8 w-auto"
               />
               <span className="text-xl font-bold text-white ml-2">
-                
+                Ruzo Green Energy
               </span>
             </div>
             <p className="text-gray-300 leading-relaxed">
@@ -94,21 +94,24 @@ const Footer: React.FC = () => {
             
             {/* Social Media Icons */}
             <div className="flex space-x-4">
-              {[
-                { icon: Facebook, href: '#', label: 'Facebook' },
-                { icon: Twitter, href: '#', label: 'Twitter' },
-                { icon: Linkedin, href: '#', label: 'LinkedIn' },
-                { icon: Instagram, href: '#', label: 'Instagram' }
-              ].map(({ icon: Icon, href, label }) => (
-                <a
-                  key={label}
-                  href={href}
-                  className="bg-green-800 p-3 rounded-lg hover:bg-green-700 transition-all duration-300 hover:scale-105 hover:shadow-lg"
-                  aria-label={label}
-                >
-                  <Icon className="h-5 w-5" />
-                </a>
-              ))}
+              <a
+                href="https://www.linkedin.com/company/ruzo-green-energy/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-green-800 p-3 rounded-lg hover:bg-green-700 transition-all duration-300 hover:scale-105 hover:shadow-lg"
+                aria-label="Ruzo Green Energy LinkedIn"
+              >
+                <Linkedin className="h-5 w-5" />
+              </a>
+              <a
+                href="https://www.linkedin.com/company/verdexruzo/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-green-800 p-3 rounded-lg hover:bg-green-700 transition-all duration-300 hover:scale-105 hover:shadow-lg"
+                aria-label="VerdeX Ruzo LinkedIn"
+              >
+                <Linkedin className="h-5 w-5" />
+              </a>
             </div>
 
             {/* Newsletter Signup */}
@@ -132,7 +135,7 @@ const Footer: React.FC = () => {
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-gray-400 text-sm">
-              © 2024 Verdex. All rights reserved. Building a sustainable future through innovation.
+              © 2025 Ruzo Green Energy. All rights reserved.
             </p>
             <div className="flex space-x-6 text-sm">
               <a href="#" className="text-gray-400 hover:text-green-400 transition-colors duration-300">
