@@ -89,7 +89,7 @@ const Careers: React.FC = () => {
                   'Flexible working hours',
                   'Remote work options',
                   'Unlimited PTO',
-                  '4-day work week'
+                  '5-day work week'
                 ]
               },
               {
