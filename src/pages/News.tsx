@@ -53,20 +53,6 @@ const News: React.FC = () => {
                   <TrendingUp className="h-5 w-5" />
                 </button>
               </div>
-              <div className="relative">
-                <img 
-                  src="https://images.pexels.com/photos/9800029/pexels-photo-9800029.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1"
-                  alt="Strategic Partnership"
-                  className="w-full h-96 object-cover rounded-2xl shadow-xl"
-                />
-                <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-sm font-medium text-gray-900">
-                  <div className="flex items-center space-x-1">
-                    <Handshake className="h-4 w-4 text-green-600" />
-                    <span>Partnership</span>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </section>
@@ -190,9 +176,6 @@ const News: React.FC = () => {
               Follow our journey as we continue to innovate and lead in renewable energy solutions.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-white text-green-600 hover:bg-gray-100 px-8 py-4 rounded-lg font-semibold transition-all duration-300 hover:scale-105">
-                Subscribe to Updates
-              </button>
               <button 
                 onClick={() => setShowContactModal(true)}
                 className="border-2 border-white text-white hover:bg-white hover:text-green-600 px-8 py-4 rounded-lg font-semibold transition-all duration-300"

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Leaf, Recycle, Sun, Droplets, Trees, Wind } from 'lucide-react';
 
 const Sustainability: React.FC = () => {
@@ -184,9 +185,9 @@ const Sustainability: React.FC = () => {
             <p className="text-xl text-green-100 max-w-2xl mx-auto">
               Partner with us to create technology solutions that benefit both your business and the environment.
             </p>
-            <button className="bg-white text-green-600 hover:bg-gray-100 px-8 py-4 rounded-lg font-semibold transition-all duration-300 hover:scale-105">
+            <Link to="/technology" className="bg-white text-green-600 hover:bg-gray-100 px-8 py-4 rounded-lg font-semibold transition-all duration-300 hover:scale-105 inline-block">
               Learn More
-            </button>
+            </Link>
           </div>
         </div>
       </section>

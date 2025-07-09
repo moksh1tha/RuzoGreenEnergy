@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Leaf, Zap, Shield, Globe, Heart, Lightbulb, Users } from 'lucide-react';
 
 const Home: React.FC = () => {
+  const [showContactModal, setShowContactModal] = useState(false);
+
   return (
     <div className="bg-white">
       {/* Hero Section */}
@@ -182,7 +184,7 @@ const Home: React.FC = () => {
                 ))}
               </div>
               <Link to="/careers" className="bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 hover:scale-105 inline-block">
-                Learn More
+                Learn More About VerdeX
               </Link>
             </div>
             <div className="bg-gradient-to-br from-green-50 to-green-100 p-8 rounded-2xl">
@@ -317,7 +319,10 @@ const Home: React.FC = () => {
             <p className="text-xl text-green-100 max-w-2xl mx-auto">
               Join thousands of companies already using RUZO GREEN ENERGY to create a more sustainable future.
             </p>
-            <button className="bg-white text-green-600 hover:bg-gray-100 px-8 py-4 rounded-lg font-semibold transition-all duration-300 hover:scale-105 hover:shadow-xl">
+            <button 
+              onClick={() => setShowContactModal(true)}
+              className="bg-white text-green-600 hover:bg-gray-100 px-8 py-4 rounded-lg font-semibold transition-all duration-300 hover:scale-105 hover:shadow-xl"
+            >
               Get Started Today
             </button>
             <div className="text-sm text-green-100 space-y-1 mt-8">
@@ -327,6 +332,37 @@ const Home: React.FC = () => {
           </div>
         </div>
       </section>
+
+      {/* Contact Modal */}
+      {showContactModal && (
+        <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50" onClick={() => setShowContactModal(false)}>
+          <div className="bg-white p-8 rounded-2xl shadow-xl max-w-md w-full mx-4" onClick={(e) => e.stopPropagation()}>
+            <div className="text-center space-y-4">
+              <h3 className="text-2xl font-bold text-gray-900">Contact Information</h3>
+              <div className="space-y-3 text-gray-700">
+                <div>
+                  <p className="font-semibold">Email:</p>
+                  <p>ceo@ruzogreenenergy.com</p>
+                </div>
+                <div>
+                  <p className="font-semibold">Telephone:</p>
+                  <p>+91 99568 14433</p>
+                </div>
+                <div>
+                  <p className="font-semibold">Mobile:</p>
+                  <p>+91 94736 76618</p>
+                </div>
+              </div>
+              <button 
+                onClick={() => setShowContactModal(false)}
+                className="bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-lg font-semibold transition-colors duration-300"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 };

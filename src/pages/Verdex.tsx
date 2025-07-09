@@ -337,12 +337,6 @@ const Verdex: React.FC = () => {
               >
                 Start Your Journey
               </button>
-              <button 
-                onClick={() => document.getElementById('key-features')?.scrollIntoView({ behavior: 'smooth' })}
-                className="border-2 border-white text-white hover:bg-white hover:text-black px-8 py-4 rounded-lg font-semibold transition-all duration-300"
-              >
-                Schedule Demo
-              </button>
             </div>
             <div className="text-sm text-gray-300 space-y-1 mt-8">
               <p>Contact us: ceo@ruzogreenenergy.com</p>
